@@ -1,11 +1,29 @@
 {
-  "posts": [
+  "facturas": [
     {
       "id": 1,
-      "title": "hello"
+      "cliente": "Juan Pérez",
+      "fecha": "2025-05-28",
+      "total": 250.75,
+      "descripcion": "Laptop",
+      "cantidad": 1, 
+      "precio_unitario": 250.75 
+    },
+    {
+      "id": 2,
+      "cliente": "María Gómez",
+      "fecha": "2025-05-27",
+      "total": 480.00,
+      "descripcion": "Monitor", 
+      "cantidad": 2, 
+      "precio_unitario": 120.00
+    },
+    {
+      "id": 3,
+      "cliente": "Carlos Ruiz",
+      "fecha": "2025-05-26",
+      "total": 99.99,
+      "descripcion": "Mouse inalámbrico", 
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
